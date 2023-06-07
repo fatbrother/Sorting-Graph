@@ -55,8 +55,10 @@ def main() -> None:
     plt.xlabel('data size')
     plt.ylabel('running time')
     plt.title('running time of different sorting algorithms')
+    plt.grid()
     plt.legend()
-    plt.show()
+    plt.savefig('running_time.png')
+
 
 
 if __name__ == '__main__':  
